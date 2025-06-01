@@ -6,10 +6,10 @@
 	"type": "module",
 	"packageManager": "pnpm@10.11.0+sha512.6540583f41cc5f628eb3d9773ecee802f4f9ef9923cc45b69890fb47991d4b092964694ec3a4f738a420c918a333062c8b925d312f42e4f0c263eb603551f977",
 	"scripts": {
-        "start": "npx tsx --env-file=.env.local src/barber/index.ts",
-        "build": "npx tsx scripts/build.ts",
-        "lint": "eslint .",
-        "types": "tsc --noEmit"
+		"start": "npx tsx --env-file=.env.local src/barber/index.ts",
+		"build": "npx tsx scripts/build.ts",
+		"lint": "eslint .",
+		"types": "tsc --noEmit"
 	},
 	"repository": {
 		"type": "git",
@@ -30,6 +30,7 @@
 		"@typescript-eslint/parser": "^8.33.0",
 		"esbuild": "0.25.0",
 		"eslint": "9.10.0",
+		"globals": "^16.2.0",
 		"jszip": "^3.10.1",
 		"tsx": "4.19.2",
 		"typescript": "5.7.3"
